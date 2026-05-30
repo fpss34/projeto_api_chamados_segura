@@ -1,0 +1,23 @@
+{
+  "name": "api-chamados-segura",
+  "version": "1.0.0",
+  "description": "API RESTful segura para integração de chamados empresariais com autenticação por API Key.",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": ["api", "rest", "express", "postgresql", "apikey"],
+  "author": "Equipe Arquitetura Orientada a Serviços",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "yaml": "^2.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
